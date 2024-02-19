@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const taskRoutes = require("./routes/tasks.routes");
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.listen(port);
 
