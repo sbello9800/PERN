@@ -6,7 +6,7 @@ import { Container } from "@mui/material";
 export default function App() {
   return (
     <BrowserRouter>
-    <Menu/>
+      <Menu />
       <Container>
         <Routes>
           <Route path="" element={<TaskList />} />
